@@ -1,0 +1,101 @@
+@media (max-width: 575.98px) {
+  #home p:first-of-type {
+    font-size: 5.5rem; }
+  #home p:last-of-type {
+    font-size: 3rem; }
+
+  #experience h5 {
+    font-size: 1.2rem; }
+  #experience .lead {
+    font-size: 1.2rem;
+    font-weight: 300; }
+
+  #project .card {
+    margin-bottom: 1.25rem; }
+
+  #education .container {
+    width: 100%; }
+
+  #contact h4 {
+    font-size: 1.2rem; }
+  #contact .fa-3x {
+    font-size: 2.5em; }
+  #contact .ml-5 {
+    margin-left: 2.5rem !important; }
+  #contact .pl-3 {
+    padding-left: 0.5rem !important; }
+
+  #dot-nav {
+    display: none; } }
+@media (min-width: 576px) and (max-width: 767.98px) {
+  #home p:first-of-type {
+    font-size: 5.5rem; }
+  #home p:last-of-type {
+    font-size: 3rem; }
+  #home .col-sm-6 {
+    flex: 0 0 70%;
+    max-width: 70%; }
+
+  #project .card {
+    margin-bottom: 1.25rem; }
+
+  #education .container {
+    width: 100%; }
+
+  #contact h4 {
+    font-size: 1.3rem; }
+  #contact .fa-3x {
+    font-size: 3em; }
+  #contact .ml-5 {
+    margin-left: 2.5rem !important; }
+  #contact .pl-3, #contact .px-3 {
+    padding-left: 0.7rem !important; }
+  #contact .pl-2, #contact .px-2 {
+    padding-left: 0.8rem !important; }
+
+  #dot-nav {
+    display: none; } }
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #home p:first-of-type {
+    font-size: 5.5rem; }
+  #home p:last-of-type {
+    font-size: 3rem; }
+
+  #education .container {
+    width: 60%; }
+
+  #skills .col-md-3 {
+    flex: 0 0 30%;
+    max-width: 25%;
+    margin-left: .65rem; }
+    #skills .col-md-3 h5 {
+      font-size: 0.94rem; }
+
+  #contact .pl-2, #contact .px-2 {
+    padding-left: 0.65rem !important; } }
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #home p:first-of-type {
+    font-size: 5.75rem; }
+  #home p:last-of-type {
+    font-size: 3.2rem; }
+
+  #education .container {
+    width: 50%; }
+
+  #skills .col-md-3 {
+    flex: 0 0 30%;
+    max-width: 25%;
+    margin-left: 0.65rem; }
+
+  #contact .pl-2, #contact .px-2 {
+    padding-left: 0.7rem !important; } }
+@media (min-width: 1200px) {
+  #skills .col-md-3 {
+    flex: 0 0 30%;
+    max-width: 25%;
+    margin-left: 0.65rem; }
+
+  #contact .pl-2, #contact .px-2 {
+    padding-left: 0.8rem !important; }
+  #contact .pl-3, #contact .px-3 {
+    padding-left: 1.1rem !important; } }

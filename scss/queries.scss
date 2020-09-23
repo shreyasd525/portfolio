@@ -1,0 +1,220 @@
+@media (max-width:575.98px){
+    // HOME
+    #home{
+        p:first-of-type{
+            font-size:5.5rem;
+        }
+
+        p:last-of-type{
+            font-size:3rem;
+        }
+    }
+
+    // EXPERIENCE
+    #experience{
+        h5{
+            font-size:1.2rem;
+        }
+
+        .lead{
+            font-size:1.2rem;
+            font-weight:300;
+        }
+    }
+
+    //PROJECT  
+    #project{
+        .card{
+            margin-bottom:1.25rem;
+        }
+    }
+
+    // EDCATION
+    #education{
+        .container{
+            width:100%;
+        }
+    } 
+
+    // CONTACT
+    #contact{
+        h4{
+            font-size:1.2rem;
+        }
+        
+        .fa-3x{
+            font-size:2.5em;
+        }
+
+        .ml-5{
+            margin-left:2.5rem!important;
+        }
+
+        .pl-3{
+            padding-left:0.5rem!important;
+        }
+    }
+
+    // VERTICAL SCROLL
+    #dot-nav{
+        display:none;
+    }
+}
+
+@media (min-width:576px) and (max-width:767.98px){
+    // HOME
+    #home{
+        p:first-of-type{
+            font-size:5.5rem;
+        }
+
+        p:last-of-type{
+            font-size:3rem;
+        }
+
+        .col-sm-6{
+            flex:0 0 70%;
+            max-width:70%;
+        }
+    } 
+
+    // PROJECT
+    #project{
+        .card{
+            margin-bottom:1.25rem;
+        }
+    }
+
+    //EDUCATION  
+    #education{
+        .container{
+            width:100%;
+        }
+    }
+
+    // CONTACT
+    #contact{
+        h4{
+            font-size: 1.3rem;
+        }
+
+        .fa-3x{
+            font-size:3em;
+        }
+
+        .ml-5{
+            margin-left:2.5rem!important;
+        }
+
+        .pl-3,.px-3{
+            padding-left:.7rem!important;
+        }
+
+        .pl-2,.px-2{
+            padding-left:.8rem!important;
+        }
+    }
+    
+    // VERTICAL SCROLL
+    #dot-nav{
+        display:none;
+    }
+}
+    
+@media (min-width:768px) and (max-width:991.98px){
+    // EDUCATION
+    #home{
+        p:first-of-type{
+            font-size:5.5rem;
+        }
+
+        p:last-of-type{
+            font-size:3rem;
+        }
+    } 
+
+    // EDUCATION
+    #education{
+        .container{
+            width:60%;
+        }
+    }
+    
+    // SKILLS
+    #skills{
+        .col-md-3{
+            flex:0 0 30%;
+            max-width:25%;
+            margin-left:.65rem;
+
+            h5{
+                font-size: 0.94rem;
+            }
+        }
+    } 
+
+    // CONTACT
+    #contact{
+        .pl-2, .px-2{
+            padding-left:.65rem!important;
+        }
+    } 
+}
+    
+@media (min-width:992px) and (max-width:1199.98px){
+    // HOME
+    #home{
+        p:first-of-type{
+            font-size:5.75rem;
+        }
+        p:last-of-type{
+            font-size:3.2rem;
+        }
+    } 
+    
+    // EDUCATION
+    #education{
+        .container{
+            width:50%;
+        }
+    } 
+
+    // SKILLS
+    #skills{
+        .col-md-3{
+            flex:0 0 30%;
+            max-width:25%;
+            margin-left:0.65rem;
+        }
+    } 
+
+    // CONTACT
+    #contact{
+        .pl-2,.px-2{
+            padding-left: 0.7rem!important;
+        }
+    } 
+}
+
+@media (min-width:1200px){
+
+    // SKILLS
+    #skills{
+        .col-md-3{
+            flex:0 0 30%;
+            max-width:25%;
+            margin-left: 0.65rem;
+        }
+    } 
+
+    // CONTACT
+    #contact{
+        .pl-2, .px-2{
+            padding-left:.8rem!important;
+        }
+
+        .pl-3,.px-3{
+            padding-left:1.1rem!important;
+        }
+    } 
+}
